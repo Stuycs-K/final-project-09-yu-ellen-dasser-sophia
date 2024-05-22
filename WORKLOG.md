@@ -1,17 +1,17 @@
 # Work Log
 
-## GROUP MEMBER 1
+## Ellen Yu
 
-### date x
+### 5/22
 
-info
+cloned repo, starting to fill in logs and READMEs
 
 ### date y
 
 info
 
 
-## GROUP MEMBER 2
+## Sophia Dasser
 
 ### date x
 
