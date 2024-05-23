@@ -13,9 +13,9 @@ info
 
 ## Sophia Dasser
 
-### date x
+### date 5/23
 
-info
+Wrote up the read me
 
 ### date y
 
