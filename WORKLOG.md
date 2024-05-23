@@ -13,9 +13,9 @@ outlined video in our shared google doc (historical context of matrices and encr
 
 ## Sophia Dasser
 
-### date x
+### date 5/23
 
-info
+Wrote up the read me
 
 ### date y
 
