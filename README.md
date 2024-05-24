@@ -8,6 +8,7 @@
 
 ### Historical Context: (1 minutes) Ellen
 
+In 1929, an American mathematician named Lester Hill developed a polygraphic substitution cipher that became known as the Hill Cipher. Lester S. Hill taught mathematics at Princeton, Yale, Hunter College, and the Universities of Maine and Montana. He was also thought to have had a relationship with the military, as he had served in World War 1. In fact, some of his papers were sent to Naval Communications rather than published. This, along with the Hill Cipher, may have helped with encryption and decryption during World War 2. His cipher was the first substitution cipher that allowed operations on groups of more than three characters at a time and marked the beginning of modern mathematical theory and its applications to cryptography. 
 
 ### Provide a Background on Matrices and Matrix Multiplication: (3 minutes) Sophia
 
