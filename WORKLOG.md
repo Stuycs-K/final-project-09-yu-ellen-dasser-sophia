@@ -10,6 +10,8 @@ cloned repo, starting to fill in logs and READMEs
 
 outlined video in our shared google doc (historical context of matrices and encryption then teach the math and its connection with encryption and decryption), did some more research
 
+### 5/24
+started tryhackme room, wrote up historical context
 
 ## Sophia Dasser
 
