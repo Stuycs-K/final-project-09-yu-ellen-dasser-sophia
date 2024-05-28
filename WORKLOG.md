@@ -13,6 +13,9 @@ outlined video in our shared google doc (historical context of matrices and encr
 ### 5/24
 started tryhackme room, wrote up historical context
 
+### 5/28
+almost done with tryhackme room
+
 ## Sophia Dasser
 
 ### date 5/23
