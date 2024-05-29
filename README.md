@@ -84,7 +84,6 @@ makefile
 Compilation Steps:
 
 ```
-make compile // will compile all files
 make encrypt ARGS="plaintext PerfectSquareNumberOfEnteriesSeperatedByCommas" // will encode the message using Matrix given
 make decrypt ARGS="encodedText PerfectSquareNumberOfEnteriesSeperatedByCommas" // will decode the message using Matrix given
 make encrypt ARGS="plaintext PerfectSquareNumberOfEnteriesSeperatedByCommas modBy"// will hash the message using Matrix and mod given
