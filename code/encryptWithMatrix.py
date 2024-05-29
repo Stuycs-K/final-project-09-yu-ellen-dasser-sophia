@@ -23,18 +23,6 @@ def numbersToText(numbers):
 
 	return text
 
-
-"""
-    Encrypt a message using the Hill Cipher with a given 2x2 matrix.
-
-    Args:
-        message (str): The plaintext message.
-        encryptionMatrix (np.ndarray): The 2x2 encryption matrix.
-
-    Returns:
-        The encrypted message (str)
-    """
-
 def encryptMessage(message, encryptionMatrix):
 
 	#Given plain text message, convert letters to its index in alphabet
