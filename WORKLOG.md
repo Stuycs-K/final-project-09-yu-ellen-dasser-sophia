@@ -16,6 +16,15 @@ started tryhackme room, wrote up historical context
 ### 5/28
 almost done with tryhackme room
 
+### 5/29
+finished 2/3 of tasks, working on third 
+
+### 5/30 
+absent (donated blood!), finished tryhackme 
+
+### 5/31
+absent (sick), added more examples to tryhackme
+
 ## Sophia Dasser
 
 ### date 5/23
