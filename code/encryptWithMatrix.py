@@ -11,6 +11,8 @@ def textToNumbers(text):
 		numberOfChar = ord(char) - ord('a')
 		numberArray.append(numberOfChar)
 
+	#print(numberArray)
+
 	return numberArray
 
 def numbersToText(numbers):
@@ -18,8 +20,9 @@ def numbersToText(numbers):
 	text = ''
 
 	for number in numbers:
-		charOfNumber = chr( number +ord('a'))
+		charOfNumber = chr( number + ord('a'))
 		text += charOfNumber
+
 
 	return text
 
@@ -35,6 +38,7 @@ def encryptMessage(message, encryptionMatrix):
 	for i in range(0, len(messageInNumbers), 2):
 		
 		pairVector = np.array(messageInNumbers[i:i+2])
+		#print(pairVector)
 
 		'''
 		Next encrupt the pair by applying matrix multiplication 
@@ -43,6 +47,7 @@ def encryptMessage(message, encryptionMatrix):
 		multplying a vector and a matrix
 
 		'''
+
 		encryptedPair = np.dot(encryptionMatrix,pairVector) % 26
 
 		#Add encrypted par to the new encrypted array of vectors
@@ -79,6 +84,7 @@ def parseArgs(args):
 	# Convert the list of values into a 2x2 matrix
 
 	matrix = np.array(matrixValues).reshape(2, 2)
+
 	return message, matrix
 
 def prepareMessage(message):
@@ -88,7 +94,7 @@ def prepareMessage(message):
 
 	# If the message length is odd, add a padding character (e.g., 'x')
 	if len(message) % 2 != 0:
-		message += 'x'
+		message += 'q'
 
 	return message
 
@@ -98,8 +104,8 @@ def prepareMessage(message):
 if __name__ == "__main__":
     message, matrix = parseArgs(sys.argv)
     preparedMessage = prepareMessage(message)
-    encrypted_message = encryptMessage(preparedMessage, matrix)
-    print(encrypted_message)
+    encryptedMessage = encryptMessage(preparedMessage, matrix)
+    print(encryptedMessage)
 
 
 
