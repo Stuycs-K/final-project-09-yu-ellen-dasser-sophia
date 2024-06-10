@@ -92,6 +92,9 @@ implemented new library in brute force called itertools which helped it run much
 
 finished slides and recorded audio/demo
 
+### date  06/10
+
+edited video and put all the audios and slides and screenrecordings together
 
 ## Resources
 [1](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/02%3A_Matrices/2.05%3A_Application_of_Matrices_in_Cryptography)
