@@ -97,6 +97,8 @@ Compilation Steps:
 make encrypt ARGS="plainText fourLetterKey" // returns cipherText
 make decrypt ARGS="cipherText fourLetterKey" // returns plainText
 make hash ARGS="plainText fourLetterKey" // returns hashedText
-make bruteforce ARGS="Encoded Decoded" // returns fourLetterKey
+
+//Note that the following does not work but the logic is there:
+make bruteforce ARGS="cipherText" // returns plainText 
 
 ```
