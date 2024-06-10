@@ -10,7 +10,7 @@
 
 In 1929, an American mathematician named Lester Hill developed a polygraphic substitution cipher that became known as the Hill Cipher. Lester S. Hill taught mathematics at Princeton, Yale, Hunter College, and the Universities of Maine and Montana. He was also thought to have had a relationship with the military, as he had served in World War 1. In fact, some of his papers were sent to Naval Communications rather than published. This, along with the Hill Cipher, may have helped with encryption and decryption during World War 2. His cipher was the first substitution cipher that allowed operations on groups of more than three characters at a time and marked the beginning of modern mathematical theory and its applications to cryptography. 
 
-### Provide a Background on Matrices and Matrix Multiplication: (3 minutes) Sophia
+### Provide a Background on Matrices and Matrix Multiplication: (3 minutes) Charles Hua and Lisa Li
 
 *[Explain this on a pre-drawn white board with definitions and sudo code matrix multiplication (maybe?):]*
 
@@ -23,7 +23,7 @@ In 1929, an American mathematician named Lester Hill developed a polygraphic sub
 - This matrix is then multiplied with the cipher matrix to form a new matrix containing the ciphertext message.
 
 
-### Encryption Explained: (3 minutes) Ellen
+### Encryption Explained: (3 minutes) Charles Hua and Lisa Li
 
 *[Now show on white board how each letter is a number and how we can multiply the matrices together to encrypt.]*
 
@@ -35,7 +35,11 @@ These values are then separated into vectors, such that the number of rows of ea
 - The plaintext matrix is then multiplied with the cipher matrix to create the ciphertext matrix.
 
 
-### Decryption Explained: (2 minutes) Sophia
+### Provide a Background on Matrix Inverses: (3 minutes) Sophia Dasser
+
+[write something up]
+
+### Decryption Explained: (2 minutes) Ellen Yu
 
 *[Show on white board how matrix can be inverted and then left multiplied]*
 
@@ -47,19 +51,21 @@ decrypt the ciphertext.
 - The product produces the original plaintext matrix.
 - The plaintext can be found again by taking this product and splitting it back up into its separate vectors, and then converting the numbers back into their letter forms.
 
-### Example of a Hill Cipher Manually: (2 minutes) Ellen
+### Example of a Hill Cipher Decryption Manually: (2 minutes) Ellen Yu
 
 *[Show on the example on a white board]*
 
 Write out the work for the example
 
-### Example of a Hill Cipher By Code: (1 minutes) Sophia
+### Example of a Hill Cipher By Code Demo: (2 minutes) Sophia
 
 *[Switch to a terminal and show you running the code]*
 
 ```
-make encrypt ARGS="Message PerfectSquareNumberOfEnteriesSeperatedByCommas"
-make decrypt ARGS="Encoded PerfectSquareNumberOfEnteriesSeperatedByCommas"
+make encrypt ARGS="plainText fourLetterKey" returns cipherText
+make decrypt ARGS="cipherText fourLetterKey" returns plainText
+make hash ARGS="plainText fourLetterKey" returns hashedText
+make bruteforce ARGS="Encoded Decoded" returns fourLetterKey
 ```
 
 
@@ -79,13 +85,18 @@ Files:
 encryptWithMatrix.py
 decryptWithMatrix.py
 hashWithMatrix.py
+bruteForce.py
 makefile
+
+TryHackMe:
+[Hill Cipher](https://tryhackme.com/jr/hillcipher) 
 
 Compilation Steps:
 
 ```
-make encrypt ARGS="plaintext PerfectSquareNumberOfEnteriesSeperatedByCommas" // will encode the message using Matrix given
-make decrypt ARGS="encodedText PerfectSquareNumberOfEnteriesSeperatedByCommas" // will decode the message using Matrix given
-make encrypt ARGS="plaintext PerfectSquareNumberOfEnteriesSeperatedByCommas modBy"// will hash the message using Matrix and mod given
+make encrypt ARGS="plainText fourLetterKey" // returns cipherText
+make decrypt ARGS="cipherText fourLetterKey" // returns plainText
+make hash ARGS="plainText fourLetterKey" // returns hashedText
+make bruteforce ARGS="Encoded Decoded" // returns fourLetterKey
 
 ```

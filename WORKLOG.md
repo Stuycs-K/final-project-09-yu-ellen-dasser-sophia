@@ -25,6 +25,18 @@ absent (donated blood!), finished tryhackme
 ### 5/31
 absent (sick), added more examples to tryhackme
 
+### 6/3
+started filming
+
+### 6/5
+finished recording voiceover
+
+### 6/7
+worked on slides for video
+
+### 6/9 
+finished slides
+
 ## Sophia Dasser
 
 ### date 5/23
