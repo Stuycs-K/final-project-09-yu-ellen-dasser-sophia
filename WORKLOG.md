@@ -68,6 +68,31 @@ fixing decryption bugs (from using modulo) and coneferred with peer groups who w
 
 finished decryption and added feature to input key in alphabet instead of matrix number
 
+### date  06/03
+
+started to work on hash
+
+### date  06/04
+
+continued working on hash
+
+### date  06/05
+
+started brute force, and finished hash
+
+### date  06/06
+
+trouble shooted brute force because it wasn't printing/running anything, also wrote up script
+
+### date  06/07
+
+implemented new library in brute force called itertools which helped it run much faster and made more combinations
+
+### date  06/09
+
+finished slides and recorded audio/demo
+
+
 ## Resources
 [1](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/02%3A_Matrices/2.05%3A_Application_of_Matrices_in_Cryptography)
 [2](https://www.math.utah.edu/~gustafso/s2017/2270/projects-2017/joePuglianoBrandonSehestedt/LinearAlgebra_Project.pdf)
