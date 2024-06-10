@@ -88,6 +88,9 @@ hashWithMatrix.py
 bruteForce.py
 makefile
 
+TryHackMe:
+[Hill Cipher](https://tryhackme.com/jr/hillcipher) 
+
 Compilation Steps:
 
 ```
