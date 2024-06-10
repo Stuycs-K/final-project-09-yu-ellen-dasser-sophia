@@ -47,6 +47,6 @@ make bruteforce ARGS="cipherText" # returns plainText
 
 ### Presentation Video and Documentation
 * [Presentation Video](google.com) 
-* [Presentation Slides](google.com)
-* [Presentation Outline](google.com) 
+* [Presentation Slides](https://drive.google.com/file/d/1zyEIDTR-1Yvs42OJqPmAcmtStb4c8B05/view?usp=sharing)
+* [Presentation Outline](https://drive.google.com/file/d/1Zs2RpToGa_eoJB-ugvRAU3V7CHzgLuqx/view?usp=sharing)
 
