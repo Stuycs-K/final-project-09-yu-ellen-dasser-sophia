@@ -64,10 +64,8 @@ Write out the work for the example
 ```
 make encrypt ARGS="plainText fourLetterKey" returns cipherText
 make decrypt ARGS="cipherText fourLetterKey" returns plainText
-make hash ARGS="plainText fourLetterKey" returns hashedText
-make bruteforce ARGS="Encoded Decoded" returns fourLetterKey
+make bruteforce ARGS="cipherText
 ```
-
 
 Run this code with any given message and show that we can encrypt and decrypt with a given matrix and message
 
@@ -76,7 +74,7 @@ Run this code with any given message and show that we can encrypt and decrypt wi
 If you want to make the encrytption decryptable, you can mod the matrix! Explain how this would work further, and run a new piece of code 
 
 ``` 
-make hash ARGS="Message PerfectSquareNumberOfEnteriesSeperatedByCommas ModBy"
+make hash ARGS="plainText fourLetterKey"
  ```
 
 ## Instructions
